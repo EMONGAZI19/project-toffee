@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#loader {
+  display: block;
+  text-align: center;
+  padding: 50px;
+  background: #fff;
+  font-size: 24px;
+  color: #333;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+#channelContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.channel {
+  background-color: #fff;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.channel img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.channel span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #0056b3;
+}
+
+.channel-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.channel.small-channel {
+  width: 150px;
+}
